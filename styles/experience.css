@@ -1,0 +1,81 @@
+
+#ExpImg {
+    background-image: url("../assets/images/ocean.jpg");
+    height: 1200px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#expHeader {
+    padding-top: 4%;
+    font-family: Arial, Helevetica, sans-serif;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+}
+#ExpEduc {
+   width: 70%;
+   padding-top: 5%;
+}
+.EmptyTD
+{
+    width: 10%;
+}
+.EmptyImgTD
+{
+    width: 5%;
+}
+.ExpDate
+{
+    text-align: center;
+    width: 25%;
+}
+.ExpDateS
+{
+    font-size: 18px;
+    font-family: Arial, Helevetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.ExpDateB
+{
+    color:#1E90FF;
+}
+.ExpCont 
+{
+    width: 25%;
+}
+.ExpCont div
+{
+    font-size: 14px;
+    font-family: Arial, Helevetica, sans-serif;
+    color: white;
+    line-height: 200%;
+}
+.Work 
+{
+    background-image: url("../assets/images/work.png");
+    background-size: 50px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 5%;
+    height: 60px;
+}
+.Book
+{
+    background-image: url("../assets/images/book.png");
+    background-size: 50px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 5%;
+    height: 60px;
+}
+.Company {
+    font-family: Arial, Helevetica, sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-align:center;
+}

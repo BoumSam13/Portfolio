@@ -1,0 +1,36 @@
+.Section1
+{
+    padding-top: 40px;
+}
+
+h1 p {
+    font-family: Arial, Helevetica, sans-serif;
+    font-size: 22px;
+    color: white;
+    padding-top: 15pt;
+}
+
+h3 p {
+    font-family: Arial, Helevita, sans-serif;
+    font-size: 18px;
+    color: #1E90FF;
+}
+
+.Empty {
+    width: 15%;
+}
+
+.About1 {
+    width: 40%;
+    padding-right: 10%;
+    padding-top: 5%;
+    font-family: Tahoma, Geneva, sans-srif;
+    font-size: 16px;
+    color: white;
+    line-height: 22px;
+}
+
+.About2 {
+    width: 30%;
+    padding-top: 5%;
+}

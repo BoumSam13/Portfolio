@@ -1,0 +1,56 @@
+.Padding
+{
+    height: 220px;
+    padding-top: 5%;
+}
+.CompImage
+{
+    background-image: url("../assets/images/mac.png");
+    height: 1300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mainHeader {
+    padding-top: 50px;
+}
+#skillsHeader {
+    font-family: Arial, Helevetica, sans-serif;
+    color: white;
+    font-size: 34px;
+}
+#knowledgeHeader {
+   font-family: Arial, Helevetica, sans-serif;
+    color: white;
+    font-size: 22px;
+}
+#skills {
+    padding-top: 100px;
+    width: 70%;
+}
+.SkillsContent {
+    height: 40px;
+    width: 70px;
+}
+
+.SkillsContent td {
+    height: 40px;
+}
+#softwareName {
+    font-family: Arial, Helevetica, sans-serif;
+    color: white;
+    font-size: 16px;
+}
+#skillsBar {
+    height: 20px;
+    border 1.0px solid #1E90FF;
+    background-color:#1E90FF;
+}
+#skillsPercent {
+    color: white;
+    text-align: left
+}
+
+
