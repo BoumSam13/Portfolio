@@ -1,4 +1,31 @@
-.navbar ul {
+.navbar.navbar-inverse.navbar-fixed-top div.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top div.container-fluid div.collapse.navbar-collapse ul.nav.navbar-nav li {
+    float: none;
+    display: inline-block;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top div.container-fluid div.collapse.navbar-collapse ul.nav.navbar-nav li a {
+    color: #EEF1EF;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.25em;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top div.container-fluid div.collapse.navbar-collapse ul.nav.navbar-nav li a:hover {
+    color: #7e8a99;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top div.container-fluid div.collapse.navbar-collapse ul.nav.navbar-nav li.active a {
+    color: #3DCCC7;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top div.container-fluid div.collapse.navbar-collapse ul.nav.navbar-nav {
     background-color: black;
     list-style-type: none;
     margin: 0;
@@ -8,25 +35,8 @@
     position: fixed;
     top: 0;
     width: 100%;
-}
-
-.navbar ul li {
-    display: inline;
-}
-
-.navbar ul li a {
-    color: white;
-    padding: 14px 16px;
     text-align: center;
-    text-decoration: none;
-    font-family: Arial, Helevetica, sans-serif;
-    font-size: 16px;
 }
 
-.navbar ul li a:hover:not(.active) {
-    color: #7e8a99;
-}
 
-.navbar ul li .active {
-    color: #1E90FF;
-}
+

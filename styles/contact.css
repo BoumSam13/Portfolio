@@ -1,2 +1,67 @@
+#contactHeader {
+    font-family: 'Lato', sans-serif;
+    color: #EEF1EF;
+    font-size: 34px;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    padding-top:50px;
+    padding-left: 80px;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.labelHeader {
+    letter-spacing: 0.05em;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #EEF1EF;
+    font-weight: bold;
+}
+
+.fields-left {
+    padding-left: 60px;
+}
+
+.input, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 2px solid #3DCCC7;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.input:focus { 
+    outline: none !important;
+    border: 4px solid #3DCCC7;
+}
+
+textarea:focus {
+    outline: none !important;
+    border: 4px solid #3DCCC7;
+}
+
+.field-padding {
+    padding-bottom: 30px;
+}
+
+input[type=submit] {
+    padding: 12px;
+    background-color: #EEF1EF;
+    border: 2px solid #3DCCC7;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    border: 4px solid #3DCCC7;
+}
 
 

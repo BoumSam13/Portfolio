@@ -1,81 +1,85 @@
+.row
+{
+    margin-bottom: 50px;
+}
 
-#ExpImg {
+.ExpImg {
     background-image: url("../assets/images/ocean.jpg");
-    height: 1200px;
+    height: auto;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
+    position: relative;
 }
-#expHeader {
-    padding-top: 4%;
-    font-family: Arial, Helevetica, sans-serif;
-    color: white;
+
+.ExpImg:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(61,204,199, .15);
+}
+
+.expHeader {
+    padding: 70px 0;
+    font-family: 'Lato', sans-serif;
+    color: #EEF1EF;
     font-size: 34px;
     text-align: center;
 }
-#ExpEduc {
-   width: 70%;
-   padding-top: 5%;
-}
-.EmptyTD
-{
-    width: 10%;
-}
-.EmptyImgTD
-{
-    width: 5%;
-}
-.ExpDate
-{
-    text-align: center;
-    width: 25%;
-}
-.ExpDateS
-{
+
+.ExpDate {
+    text-align: left;
+    letter-spacing: 0.05em;
     font-size: 18px;
-    font-family: Arial, Helevetica, sans-serif;
-    color: white;
+    font-family: 'Lato', sans-serif;
+    color: #EEF1EF;
     font-weight: bold;
 }
-.ExpDateB
-{
-    color:#1E90FF;
-}
-.ExpCont 
-{
-    width: 25%;
-}
-.ExpCont div
-{
+
+.ExpCont {
     font-size: 14px;
-    font-family: Arial, Helevetica, sans-serif;
-    color: white;
+    font-family: 'Lato', sans-serif;
+    color: #EEF1EF;
     line-height: 200%;
 }
-.Work 
-{
+
+.Work {
     background-image: url("../assets/images/work.png");
-    background-size: 50px;
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
-    width: 5%;
-    height: 60px;
+    width: 70px;
+    height: 70px;
+    background-size: 35px;
+    background-color: #3DCCC7;
+    border-radius: 45px;
+    display: inline-block;
+    float: right;
 }
-.Book
-{
+
+.Book {
     background-image: url("../assets/images/book.png");
-    background-size: 50px;
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
-    width: 5%;
-    height: 60px;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-size: 27px;
+    background-color: #3DCCC7;
+    border-radius: 45px;
+    float: right;
 }
+
 .Company {
-    font-family: Arial, Helevetica, sans-serif;
-    color: white;
+    font-family: 'Lato', sans-serif;
+    color: #EEF1EF;
     font-size: 22px;
     font-weight: bold;
-    text-align:center;
+    text-align:left;
+    letter-spacing: 0.05em;
 }

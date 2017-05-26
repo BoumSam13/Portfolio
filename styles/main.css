@@ -11,7 +11,7 @@ html {
 
 body {
     margin: 0px;
-    background-color: #2c3347;
+    background-color: #404E4D;
 }
 
 .footbar {
@@ -22,8 +22,8 @@ body {
     display: inline;
     text-align: center;
     font-size: 8.0pt;
-    font-family: sans-serif;
-    color: white;
+    font-family: 'Lato', sans-serif;
+    color: #EEF1EF;
 }
 
 @media(min-width: 640px) {
