@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Samantha Boumeester</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/CRM.css">
+  </head>
+  <body id="portfolio" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div w3-include-html="header.html"></div>
+      
+    <section id="main">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="header col-md-6">
+                WuXi AppTec - CRM
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div id="builtWith" class="col-md-6">
+                Built with C#, JavaScript, HTML, CSS, SQL, ASP.NET
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div id="text1" class="col-md-6">
+                CRM is a customer relationship management system created by Microsoft. I have worked on taking custom functions in JavaScript and converting them into server-side methods which each server-side method uses one JavaScript function. Before there were chains of JavaScript functions and it was causing certain areas to run slowly. Also I have worked on adding new functionality to different entities that are in CRM. Two entities that I have worked on are Quote and Product.
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </section> 
+      
+  <section class="sectionPadding">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-2 headerPages">
+                Quote - Active Products
+                <hr style='border:1px solid #3DCCC7'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 content">
+                This page shows different information about a specific quote. Below the Quote text in the top left corner shows the name of the quote. In order to search for a product to add to a quote, the product should be entered into the text box below Active Products. To add the product, you click on it in the Active Products grid. It will then be displayed in the Product Pricing Picker grid shown in the Quote - Product Pricing Picker section below. A Quote starts off as a Draft and is in the Sales stage. Once all the products are added and everything looks good, the Submit Quote button is clicked. If the price on a product has been changed to an amount below the low price, then an approval is required. The person submitting the quote has to choose an approver and then an email gets sent to that approver. Once the approver approves the change, then an email gets sent to someone in Field Service and then they submit the quote once they think everything looks correct.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 pageImage">
+                <img src="assets/images/portfolio/crm-quote1.png">
+            </div>
+        </div>
+    </section>
+      
+  <section class="sectionPadding">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-3 headerPages">
+                Quote - Product Pricing Picker
+                <hr style='border:1px solid #3DCCC7'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 content">
+                All products that have been added to the quote are shown in the Product Pricing Picker grid. This grid displays different information about the product. There is a panel to the right of the grid that allows different types of updates to the product, such as updating the price or removing the product.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 pageImage">
+                <img src="assets/images/portfolio/crm-quote2.png">
+            </div>
+        </div>
+    </section>
+      
+  <section class="sectionPadding">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-3 headerPages">
+                Product - Active Products
+                <hr style='border:1px solid #3DCCC7'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 content">
+                This is a new page of the Product entity that is currently in Development/Testing phase. This page has to do with adding child products to a main product so that once the main product is added to a quote, all of the children products are added as well. The Parent Product is shown above the text Child Code Assignment. The Notes panel on the right shows when a child products is added or removed and who completed the action. It also shows when the quantity was changed for a child product and what the quantity was changed to. Just like on the quote page, once a product is shown in the Active Products grid and clicked on, then it is added. On this page, it is added to a grid called Child Products.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 pageImage">
+                <img src="assets/images/portfolio/crm-product1.png">
+            </div>
+        </div>
+    </section>
+      
+  <section class="sectionPadding">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-3 headerPages">
+                Product - Child Products
+                <hr style='border:1px solid #3DCCC7'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 content">
+                The Child Products grid shows all of the child products that were added to the parent product. This grid shows information about each child product. When a child product is clicked on, the quantity can be updated or it can be removed. 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 pageImage">
+                <img src="assets/images/portfolio/crm-product2.png">
+            </div>
+        </div>
+    </section>
+      
+  <script src="https://www.w3schools.com/lib/w3data.js"></script>
+  <script>
+        w3IncludeHTML();
+  </script>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="scripts/header.js"></script>
+  </body>
+</html>

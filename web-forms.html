@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Samantha Boumeester</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/web-forms.css">
+  </head>
+  <body id="portfolio" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div w3-include-html="header.html"></div>
+      
+    <section id="main">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="header col-md-6">
+                WuXi AppTec - Web Forms
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div id="builtWith" class="col-md-6">
+                Built with C#, JavaScript, jQuery, HTML, CSS, SQL, ASP.NET
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div id="text1" class="col-md-6">
+                There are multiple web forms that I created which clients use to order tests and fill out information regarding the tests ordered. Only specific tests can be ordered on each form. Once the client is done filling out the form, he or she prints it, scans it, and sends it to the appropriate location. There is also an option to save the form as a PDF instead of printing it out. Click here to see all of the different web forms: <a target="_blank" href="http://us.wuxiapptec.com/biologics/ordering-testsclient-portal/">http://us.wuxiapptec.com/biologics/ordering-testsclient-portal/</a>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </section> 
+      
+    <section class="sectionPadding">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2 headerPages">
+            Ordering Tests
+            <hr style='border:1px solid #3DCCC7'>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-5 pageImage">
+            <img src="assets/images/portfolio/webForm-ordering-tests.png">
+        </div>
+        <div class="col-md-4 content">
+            The first page of the web forms have to do with entering in the test to be ordered. If it is a test that can be ordered on the form, then it will display the Test Name after typing in the Test Code. Sometimes a test that can be ordered on the form will not show the Test Name because the Quote Number and Account Number for that test needs to be entered. If the test code does not exist or cannot be ordered on the form, then it will display the red text shown in the third row in the Test Name column. There is a check box at the bottom of the page that will display a new page to enter in more test codes if it is checked. The content in the form is remembered so if the browser you had the form opened in is closed and you come back to it, the same content will display from before. The Reset Form button is used to set all the fields back to empty, which clients use this when they come back to the form at a later time and want to enter in new tests and information.
+        </div>
+    </div>
+  </section>
+      
+  <section class="sectionPadding">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2 headerPages">
+           Information for Test
+            <hr style='border:1px solid #3DCCC7'>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 content">
+            This is an example of a page that has information to fill out related to the tests ordered. Some dropdowns and check boxes display more content depending on what is selected or clicked. For example in the Extraction Conditions dropdown, if the selection Other is chosen, then the text Specify and a text box are shown below the dropdown. There are some cases on the forms where if a specific test is ordered, it will display a new section to be filled out. The sections that appear can be based on the type of category, department, etc. of a test code.
+        </div>
+        <div class="col-md-5 pageImage">
+            <img src="assets/images/portfolio/webForm-content.png">
+        </div>
+    </div>
+  </section>
+      
+  <section class="sectionPadding">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2 headerPages">
+            Printing the Form
+            <hr style='border:1px solid #3DCCC7'>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-5 pageImage">
+            <img src="assets/images/portfolio/webForm-print.png">
+        </div>
+        <div class="col-md-4 content">
+            Here is an example of the page that contains the Print/Save button. It is recommended for the client to click this button instead of using the browser to print the form because once the button is clicked, it checks to see if any fields have not been filled out that are required. If the client prints from the browser instead of using the button, the message shown below is shown to remind the client to use the button instead when printing or saving the form as a PDF.
+            <div>
+                <img src="assets/images/portfolio/webForm-print-message.png">
+            </div>
+        </div>
+    </div>
+  </section>
+      
+  <section class="sectionPadding">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2 headerPages">
+           Required Fields
+            <hr style='border:1px solid #3DCCC7'>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 content">
+            When the Print/Save button is clicked and there are fields that are required and do not have content, then the message displayed below in the first image is shown on the form. If the OK button is clicked, the print window will open and there will be a WARNING message shown at the top of the page that will be printed or saved as a PDF, which is shown in the left image. Whereas, if the OK button is clicked, then the client is brought to the top of the first page and all required fields that are missing content are highlighted in yellow. Some fields, like the ones shown in the left image, are always required regardless of what tests are entered into the form. Other fields are only required if specific tests are entered. If a change is made, such as typing information into a field, and the browser was used to print the form instead of the Print/Save button, then the form will print with the second image shown below at the top of it. 
+            <div>
+                <img src="assets/images/portfolio/webForm-required-message.png">
+            </div>
+            <br/>
+            <div>
+                <img src="assets/images/portfolio/webForm-incomplete-message.png">
+            </div>
+        </div>
+        <div class="col-md-5 pageImage">
+            <img src="assets/images/portfolio/webForm-required-fields.png">
+        </div>
+    </div>
+  </section>
+      
+  <script src="https://www.w3schools.com/lib/w3data.js"></script>
+  <script>
+        w3IncludeHTML();
+  </script>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="scripts/header.js"></script>
+  </body>
+</html>

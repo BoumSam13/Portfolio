@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Samantha Boumeester</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/WOS-I.css">
+  </head>
+  <body id="portfolio" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div w3-include-html="header.html"></div>
+      
+    <section id="main">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="header col-md-6">
+                WuXi AppTec - WOS I
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div id="builtWith" class="col-md-6">
+                Built with JavaScript, AngularJS, Bonitasoft
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div id="text1" class="col-md-6">
+                WOS I was created using the application platform, Bonitasoft. The backend uses Java, which I did not work on. I worked on the front-end using JavaScript and AngularJS. Bonitasoft uses widgets and the widgets are created with AngularJS. There are existing widgets that Bonitasoft provides and some of the widgets I updated to work differently. The application is used by employees to update orders from Starlims and create new orders. Order items can be updated or new order items can be added as well. Once an order item is ready to be invoiced, it can be planned and queued. The application was created to help with job duties of different departments by creating less chance of errors since a lot of the work was done manually and minimizing the amount of steps it was taking to complete this process. I also created two training videos that explain how the different pages work. Before an employee is given access to the application, their manager or a designated trainer will go through the part of the video that has to do with the job duties that they will be performing.
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </section> 
+      
+  <section class="sectionPadding">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-1 headerPages">
+                Main Page
+                <hr style='border:1px solid #3DCCC7'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 content">
+                The is the page that is shown when a user first logs in. When the user wants to go to another page, he clicks one of the three tabs: Orders, Invoices, or Audit. There are three different roles in this application. One role allows the user to view everything but cannot make any changes, which means buttons that allow changes to be made are disabled. Another role has access to some changes, which means some buttons are enabled and some are not. The third role has access to everything. If a user wants to change his password, it can be done on this page. 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 pageImage">
+                <img src="assets/images/portfolio/WOSI-main.png">
+            </div>
+        </div>
+    </section>
+      
+    <section class="sectionPadding">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-1 headerPages">
+                Orders
+                <hr style='border:1px solid #3DCCC7'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 content">
+                When a folder is commited in the Labratory system, Starlims; then it gets created as an order in WOS. On the Orders page, the user can search for the order by the order #, folder #, or account #. A new order can also be created by typing in information in the text boxes below New Order and then clicking the Add Order button. These are known as manual orders and for these types of orders, the po #, contact full name, contact email, start date, and end date can all be updated. With an order from Starlims, none of these fields can be updated. Also a manual order can be cancelled, but a Starlims order cannot. When an order is clicked, more details about the order are shown in the Order Details table. 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 pageImage2">
+                <img src="assets/images/portfolio/WOSI-orders1.png">
+            </div>
+        </div>
+    </section>
+      
+  <section class="sectionPadding">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-2 headerPages">
+                Order Details
+                <hr style='border:1px solid #3DCCC7'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 content">
+                Items are shown in the Order Details table. The text boxes below the table are used to update an item when the row for it is clicked. An item that came from Starlims cannot be deleted. However, if an item is added from the Add Order Item section, then it can be deleted. An item has a related item when a row is selected in the Order Details table and another item is added in the Add Order Item section.  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 pageImage2">
+                <img src="assets/images/portfolio/WOSI-orders2.png">
+            </div>
+        </div>
+    </section>
+      
+ <section class="sectionPadding">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-1 headerPages">
+                Invoices
+                <hr style='border:1px solid #3DCCC7'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 content">
+                This is the Invoices page, which looks like the Orders page. However, you can also search by WOS ID on this page. The WOS ID is what is shown in a system called GP that has to do with the invoices. Once a row is selected in the Order Details table, then an invoice for an item can be created by typing in an amount in the Partial Price field or Partial Percent. Once a Process Date is picked and the Plan Invoice button is clicked, then the invoice will be shown in the table Invoice Items in the section below. Also users have the option to plan multiple invoices at once by picking from the Partial Breakout dropdown and clicking Plan Invoices. The dropdown has different percentages such as 50/50, which will create two invoice items and split the price in half for each invoice item.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 pageImage2">
+                <img src="assets/images/portfolio/WOSI-invoices1.png">
+            </div>
+        </div>
+    </section>
+   
+    <section class="sectionPadding">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-2 headerPages">
+                Invoice Items
+                <hr style='border:1px solid #3DCCC7'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 content">
+               This is where the invoice items are shown. The Partial Price and Process Date for each invoice item can be changed. When the user is ready to submit the invoice, he will click the Queue button. If the user decides that the item shouldn't be sent, then he can click the Un-Queue button. Also if a mistake is made and the wrong item was chosen or the user doesn't want there to be multiple invoice items from clicking Plan Invoices, then he can Cancel the invoice items. 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 pageImage3">
+                <img src="assets/images/portfolio/WOSI-invoices2.png">
+            </div>
+        </div>
+    </section>
+      
+   <section class="sectionPadding">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-1 headerPages">
+                Audit
+                <hr style='border:1px solid #3DCCC7'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 content">
+                The Audit page shows history on the orders and their items. It shows who added or updated something, when it happened, what was updated, and what it was updated to. 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 pageImage2">
+                <img src="assets/images/portfolio/WOSI-audit.png">
+            </div>
+        </div>
+    </section>
+      
+  <script src="https://www.w3schools.com/lib/w3data.js"></script>
+  <script>
+        w3IncludeHTML();
+  </script>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="scripts/header.js"></script>
+  </body>
+</html>

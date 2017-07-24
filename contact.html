@@ -2,29 +2,30 @@
 <div width="50%" style='height:600px;background-color:#7D7C7A'>
         <span id="contactHeader">Contact Form</span>
     <div class="container">
-        <form action="submit">
+        <form name="contactform" method="post" action="contact/send-form-email.php">
             <div class="fields-left">
                 <label class="labelHeader" for="fname">Name:</label>
                 <br>
-                <input class="input" type="text" name="name" class="field-padding">
+                <input class="input" type="text" name="name" value="" class="field-padding">
                 <br/>
             </div>
             <div class="fields-left">
                 <label class="labelHeader" for="email">E-mail:</label>
                 <br/>
-                <input class="input" type="text" name="email" class="field-padding">
+                <input class="input" type="text" name="email" value="" class="field-padding">
                 <br/>
             </div>
             <div class="fields-left">
                 <label class="labelHeader" for="message">Message:</label>
                 <br/>
-                <textarea class="input" type="text" name="message" rows="4" class="field-padding"></textarea>
+                <textarea class="input" type="text" name="message" rows="4" value="" class="field-padding"></textarea>
                 <br/>
             </div>
             <div class="fields-left">
-                <input type="submit" value="Send Message">
+                <input id="submit" type="submit" name="submit" value="Send Message">
             </div>
         </form>
     </div>
 </div>
 </section>
+
